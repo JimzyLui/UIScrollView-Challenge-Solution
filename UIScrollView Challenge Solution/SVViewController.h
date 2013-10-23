@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface SVViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
+@property(strong,nonatomic)UIImageView *globalImageView;
 
 @end
